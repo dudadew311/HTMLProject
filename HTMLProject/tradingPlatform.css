@@ -1,0 +1,335 @@
+body{
+	color: #666666;
+	max-width: 90%;
+	min-width: 463px;
+	margin: auto;
+	font-family: "times new roman";
+}
+
+#phoneid {
+	width: 174px;
+	float: right;
+	margin: 19px;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 0 2px #666666;
+}
+
+.phone_number p {
+	color: #00aeef;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+
+.phone_number a  {
+	border: 1px solid;
+    padding: 8px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #666666;
+    background-color: #ECECEB;
+}
+
+#login  {
+	float: left;
+	border: 1px solid;
+}
+
+#register {
+	float: right;
+	border: 1px solid;
+}
+
+#logo {
+	float: left;
+}
+
+#header {
+	overflow: hidden;
+}
+
+#mainarea {
+	padding: 50px 0 0 0;
+	background-image: url("WAD-NA-Project-Images/UI Images/main.jpg");
+	background-size: cover;
+}
+
+#why_chose {
+	width: 50%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.28);
+	padding: 1px 37px;
+    box-sizing: border-box;
+}
+
+#why_chose h3 {
+	font-size: 30pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#why_chose p {
+	font-size: 16pt;
+	font-family: Arial;
+	line-height: 34px;
+	
+}
+
+#why_chose a {
+	font-weight: bold;
+	font-size: smaller;
+    padding: 3px 21px;
+	margin: 11px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #00aeef;
+    background-color: #ECECEB;
+    white-space: nowrap;
+}
+
+.navbar {
+	
+}
+
+#navbar div {
+	width: 100%;
+	overflow: hidden;
+}
+.navbar a{
+	color: white;
+	text-decoration: none;
+    font-size: 14px;
+	font-family: arial;
+}
+
+#navbar > ul {
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	list-style: none;
+	background-color: #00aeef;
+}
+
+#navbar ul li {
+    position: relative;
+    float: left;
+    font-size: 1em;
+    height: 2em;
+    line-height: 1em;
+    width: 16.4%;
+    border-right: 1px solid #fff;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+#navbar ul li:active {
+	border-bottom: 1px solid #00aeef;
+	background-color: #00aeef;
+}
+
+#submenu > ul{
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	list-style: none;
+	background-color: #0299d2;
+}
+
+li.submenu p{
+	color: blue;
+}
+
+#submenu ul li {
+	font-family: arial;
+    margin-top: 4px;
+    position: relative;
+    float: left;
+    font-size: 1em;
+    height: 2em;
+    line-height: 1em;
+    width: 16%;
+    text-align: center;
+}
+
+.submenu div > i {
+    font-size: xx-large;
+    float: left;
+    margin-left: 30px;
+}
+
+.submenu a{
+	color: white;
+	text-decoration: none;
+    font-size: 1em;
+}
+
+#description img {
+	float: left;
+}
+
+div.images {
+    float: left;
+    position: relative;
+}
+
+div.ipara {
+	float: right;
+	position: relative;
+	width: 60%;
+}
+
+.paradiv {
+	position: relative;
+    float: left;
+    margin: 0em 0;
+    width: 98%;
+}
+
+#description a{
+	border: 1px solid #666666;
+    color: #666666;
+    padding: 8px;
+    border-radius: 8px;
+	text-decoration: none;    
+    background-color: #ECECEB;
+}
+
+#paradiv-other {
+	display: none;
+}
+
+.images {
+	float: left;
+	height: 100%;
+	padding-top: 16px;
+}
+
+#descripLeft {
+	float: left;
+}
+
+#descripRight {
+	float: right;
+}
+
+#description .button {
+	white-space: nowrap;
+    padding: 1px 15px;
+}
+
+#description .images {
+    margin: 4% 0;}
+
+hr.description {
+
+}
+
+#links {
+	float: left;
+    margin: 11px;	
+}
+
+footer a {
+	text-decoration: none;
+    color: #666666;
+    margin: 0 10px;
+}
+
+#copyRight {
+	float: right;
+	margin: -7px 0;
+}
+
+.rsForm {
+    width: 24%;
+    padding: 10% 39%;
+    text-decoration: none;
+}
+
+.rsForm h3 {
+	padding: 0 0 0 8px;
+	font-size: 26px;
+	font-family: Arial;
+}
+
+.rsForm i {
+	padding: 7px;
+	width: 100%;
+}
+
+.loginClass input {
+	border: none;
+	margin-left: 5px;
+    content: inherit;
+}
+
+.rsForm input:focus{
+	outline: none;
+}
+
+#loginButton {
+	border: 1px solid #666666;
+	border-radius: 5px;
+	float: right;
+    padding: 3px 10px;
+}
+
+
+.rsForm a {
+	text-decoration: none; 
+	font-family: Arial;	
+	color: #00aeef;
+}
+
+#remMe {
+	font-family: Arial;	
+}
+
+ .loginClass {
+	border: 1pt solid #666666;
+}
+
+.rsForm fieldset {
+	border-radius: 7px;
+}
+
+#loginForm fieldset {
+    padding: 27px 27px 24px 27px;
+}
+
+#registerForm fieldset {
+    padding: 27px 27px 0px 27px;
+}
+
+.loginClass {
+	border-radius: 2px;
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+#description {
+		-webkit-columns: 100px 2;
+		-moz-columns: 99px 2;
+		columns: 100px 2;
+	}
+
+@media only screen and (max-width: 863px) {
+	#description {
+		-webkit-columns: 100px 1;
+		-moz-columns: 99px 1;
+		columns: 100px 1;
+	}
+
+	.submenu div > i {
+		display: none;
+	}
+	#paradiv-other {
+    display: block;
+}
+
+}

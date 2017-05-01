@@ -1,0 +1,100 @@
+<!DOCTYPE HTLM>
+<html>
+<head>
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="navBar.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+#navbar div {
+	width: 150px;
+}
+.navbar a{
+	color: white;
+	text-decoration: none;
+    font-size: 1em;
+
+}
+
+#navbar > ul {
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	list-style: none;
+	background-color: #00aeef;
+
+
+}
+
+#navbar ul li {
+	position: relative;
+	float: left;
+	font-size: 1em;
+	height: 30px;
+	line-height: 30px;
+	width: 16%;
+	border-right: 1px solid #fff;
+	text-align: center;
+}
+
+#submenu > ul{
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	list-style: none;
+	background-color: #00aeef;
+}
+
+li.submenu p{
+	color: blue;
+}
+
+#submenu ul li {
+	position: relative;
+	float: left;
+	font-size: 1em;
+	height: 30px;
+	line-height: 14px;
+	width: 16%;
+	text-align: center;
+
+}
+
+.submenu div > i {
+    font-size: xx-large;
+    float: left;
+    margin-left: 30px;
+}
+
+.submenu a{
+	color: white;
+	text-decoration: none;
+    font-size: 1em;
+}
+
+
+</style>
+
+</head>
+<body>
+	<div id="navbar" >
+			<ul class="navbar">
+				<li id="home"><a href="#">Home</a></li>
+				<li id="ot"><a href="#">Online Trading</a>					
+				<li id="ob"><a href="#">Online Brokerage</a></li>
+				<li id="ip"><a href="#">Investment Products</a></li>
+				<li id="tps"><a href="#">TP Services</a></li>
+				<li id="contact"><a href="#">Contact US</a></li>
+			</ul>
+		</div>
+		<div id="submenu">
+			<ul class="submenu">
+				<li id="subItem1"></li>
+				<li id="subItem2"></li>
+				<li id="subItem3"></li>
+				<li id="subItem4"></li>
+				<li id="subItem5"></li>
+				<li id="subItem6"></li>
+			</ul>
+		</div>
+</body>
+</html>
